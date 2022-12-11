@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 #first, install python3 and opendirectory.
 #sudo python3 -m pip install pyobjc-framework-opendirectory
-#way to run this script is: # sudo python3ldaps_macos_script.py ldap.google.com.plist
+#way to run this script is: # sudo python3 ldaps_macos_script.py ldap.google.com.plist
 from OpenDirectory import ODNode, ODSession, kODNodeTypeConfigure
 from Foundation import NSMutableData, NSData
 
