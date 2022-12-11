@@ -1,0 +1,7 @@
+sudo /usr/libexec/PlistBuddy -c "add ':module options:ldap:Denied SASL Methods:' string DIGEST-MD5" /Library/Preferences/OpenDirectory/Configurations/LDAPv3/ldap.google.com.plist 
+
+sudo /usr/libexec/PlistBuddy -c "add ':module options:ldap:Denied SASL Methods:' string CRAM-MD5" /Library/Preferences/OpenDirectory/Configurations/LDAPv3/ldap.google.com.plist
+
+sudo /usr/libexec/PlistBuddy -c "add ':module options:ldap:Denied SASL Methods:' string NTLM" /Library/Preferences/OpenDirectory/Configurations/LDAPv3/ldap.google.com.plist
+
+sudo /usr/libexec/PlistBuddy -c "add ':module options:ldap:Denied SASL Methods:' string GSSAPI" /Library/Preferences/OpenDirectory/Configurations/LDAPv3/ldap.google.com.plist
